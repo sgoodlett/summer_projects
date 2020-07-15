@@ -1,0 +1,259 @@
+
+Host: sgoodlett
+
+Timers On : Mon Jun 22 10:16:41 2020
+Timers Off: Mon Jun 22 10:16:42 2020
+
+Wall Time:        1.00 seconds
+
+JK: (A|mn)  :       0.01u       0.00s   0.011347w      3 calls
+JK: (A|Q)^-1/2:       0.02u       0.00s   0.020935w      3 calls
+JK: (Q|mn)  :       0.00u       0.00s   0.002295w      3 calls
+HF: Form H  :       0.00u       0.00s 0.00078400w      1 call
+HF: Form S/X:       0.00u       0.00s 0.00017000w      1 call
+HF: Guess   :       0.04u       0.00s 0.03761900w      1 call
+SAD Guess   :       0.04u       0.00s 0.03696100w      1 call
+JK: D       :       0.00u       0.00s   0.000051w     20 calls
+JK: USO2AO  :       0.00u       0.00s   0.000238w     20 calls
+JK: JK      :       0.02u       0.00s   0.009948w     20 calls
+JK: J       :       0.00u       0.00s   0.000984w     20 calls
+JK: J1      :       0.00u       0.00s   0.000486w     29 calls
+JK: J2      :       0.00u       0.00s   0.000420w     29 calls
+JK: K       :       0.02u       0.00s   0.008778w     20 calls
+JK: K1      :       0.01u       0.00s   0.003651w     27 calls
+JK: K2      :       0.01u       0.00s   0.005068w     27 calls
+JK: AO2USO  :       0.00u       0.00s   0.000300w     20 calls
+DIISManager::add_entry:       0.00u       0.00s   0.000460w     19 calls
+DIISManager::extrapolate:       0.00u       0.00s   0.000841w     18 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s   0.000278w     18 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s   0.000216w     18 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s   0.000280w     18 calls
+HF: Form G  :       0.01u       0.00s   0.009450w     11 calls
+HF: Form F  :       0.00u       0.00s   0.000025w     11 calls
+HF: DIIS    :       0.00u       0.00s   0.001348w     11 calls
+HF: Form C  :       0.00u       0.00s   0.000987w     11 calls
+HF: Form D  :       0.00u       0.00s   0.000023w     11 calls
+
+***********************************************************
+
+Host: sgoodlett
+
+Timers On : Mon Jun 22 10:20:57 2020
+Timers Off: Mon Jun 22 10:20:57 2020
+
+Wall Time:        0.00 seconds
+
+JK: (A|mn)  :       0.01u       0.00s   0.011921w      3 calls
+JK: (A|Q)^-1/2:       0.04u       0.00s   0.020791w      3 calls
+JK: (Q|mn)  :       0.00u       0.00s   0.002020w      3 calls
+HF: Form H  :       0.00u       0.00s 0.00084600w      1 call
+HF: Form S/X:       0.00u       0.00s 0.00018900w      1 call
+HF: Guess   :       0.04u       0.00s 0.03726700w      1 call
+SAD Guess   :       0.04u       0.00s 0.03663200w      1 call
+JK: D       :       0.00u       0.00s   0.000051w     20 calls
+JK: USO2AO  :       0.00u       0.00s   0.000217w     20 calls
+JK: JK      :       0.00u       0.00s   0.010046w     20 calls
+JK: J       :       0.00u       0.00s   0.000980w     20 calls
+JK: J1      :       0.00u       0.00s   0.000487w     29 calls
+JK: J2      :       0.00u       0.00s   0.000421w     29 calls
+JK: K       :       0.00u       0.00s   0.008886w     20 calls
+JK: K1      :       0.00u       0.00s   0.003766w     27 calls
+JK: K2      :       0.00u       0.00s   0.005062w     27 calls
+JK: AO2USO  :       0.00u       0.00s   0.000289w     20 calls
+DIISManager::add_entry:       0.00u       0.00s   0.000436w     19 calls
+DIISManager::extrapolate:       0.00u       0.00s   0.000817w     18 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s   0.000286w     18 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s   0.000235w     18 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s   0.000232w     18 calls
+HF: Form G  :       0.00u       0.00s   0.009539w     11 calls
+HF: Form F  :       0.00u       0.00s   0.000026w     11 calls
+HF: DIIS    :       0.00u       0.00s   0.001319w     11 calls
+HF: Form C  :       0.01u       0.00s   0.000929w     11 calls
+HF: Form D  :       0.00u       0.00s   0.000023w     11 calls
+
+***********************************************************
+
+Host: sgoodlett
+
+Timers On : Mon Jun 22 10:23:18 2020
+Timers Off: Mon Jun 22 10:23:19 2020
+
+Wall Time:        1.00 seconds
+
+JK: (A|mn)  :       0.01u       0.00s   0.011492w      3 calls
+JK: (A|Q)^-1/2:       0.02u       0.00s   0.020901w      3 calls
+JK: (Q|mn)  :       0.01u       0.00s   0.002136w      3 calls
+HF: Form H  :       0.00u       0.00s 0.00088800w      1 call
+HF: Form S/X:       0.00u       0.00s 0.00019100w      1 call
+HF: Guess   :       0.03u       0.00s 0.03775600w      1 call
+SAD Guess   :       0.03u       0.00s 0.03714200w      1 call
+JK: D       :       0.00u       0.00s   0.000072w     20 calls
+JK: USO2AO  :       0.00u       0.00s   0.000223w     20 calls
+JK: JK      :       0.01u       0.00s   0.009948w     20 calls
+JK: J       :       0.00u       0.00s   0.000984w     20 calls
+JK: J1      :       0.00u       0.00s   0.000483w     29 calls
+JK: J2      :       0.00u       0.00s   0.000424w     29 calls
+JK: K       :       0.01u       0.00s   0.008785w     20 calls
+JK: K1      :       0.00u       0.00s   0.003685w     27 calls
+JK: K2      :       0.01u       0.00s   0.005043w     27 calls
+JK: AO2USO  :       0.00u       0.00s   0.000282w     20 calls
+DIISManager::add_entry:       0.00u       0.00s   0.000469w     19 calls
+DIISManager::extrapolate:       0.00u       0.00s   0.000796w     18 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s   0.000300w     18 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s   0.000216w     18 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s   0.000204w     18 calls
+HF: Form G  :       0.01u       0.00s   0.009433w     11 calls
+HF: Form F  :       0.00u       0.00s   0.000025w     11 calls
+HF: DIIS    :       0.00u       0.00s   0.001306w     11 calls
+HF: Form C  :       0.00u       0.00s   0.000905w     11 calls
+HF: Form D  :       0.00u       0.00s   0.000023w     11 calls
+
+***********************************************************
+
+Host: sgoodlett
+
+Timers On : Mon Jun 22 10:25:25 2020
+Timers Off: Mon Jun 22 10:25:26 2020
+
+Wall Time:        1.00 seconds
+
+JK: (A|mn)  :       0.01u       0.00s   0.012500w      3 calls
+JK: (A|Q)^-1/2:       0.02u       0.00s   0.020745w      3 calls
+JK: (Q|mn)  :       0.01u       0.00s   0.002026w      3 calls
+HF: Form H  :       0.00u       0.00s 0.00083800w      1 call
+HF: Form S/X:       0.00u       0.00s 0.00020100w      1 call
+HF: Guess   :       0.03u       0.00s 0.03728400w      1 call
+SAD Guess   :       0.03u       0.00s 0.03671400w      1 call
+JK: D       :       0.00u       0.00s   0.000053w     20 calls
+JK: USO2AO  :       0.00u       0.00s   0.000214w     20 calls
+JK: JK      :       0.00u       0.00s   0.009983w     20 calls
+JK: J       :       0.00u       0.00s   0.000980w     20 calls
+JK: J1      :       0.00u       0.00s   0.000486w     29 calls
+JK: J2      :       0.00u       0.00s   0.000415w     29 calls
+JK: K       :       0.00u       0.00s   0.008819w     20 calls
+JK: K1      :       0.00u       0.00s   0.003670w     27 calls
+JK: K2      :       0.00u       0.00s   0.005088w     27 calls
+JK: AO2USO  :       0.00u       0.00s   0.000328w     20 calls
+DIISManager::add_entry:       0.00u       0.00s   0.000480w     19 calls
+DIISManager::extrapolate:       0.00u       0.00s   0.000727w     18 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s   0.000268w     18 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s   0.000207w     18 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s   0.000185w     18 calls
+HF: Form G  :       0.00u       0.00s   0.009531w     11 calls
+HF: Form F  :       0.00u       0.00s   0.000026w     11 calls
+HF: DIIS    :       0.01u       0.00s   0.001264w     11 calls
+HF: Form C  :       0.01u       0.00s   0.000890w     11 calls
+HF: Form D  :       0.00u       0.00s   0.000022w     11 calls
+
+***********************************************************
+
+Host: sgoodlett
+
+Timers On : Mon Jun 22 10:27:30 2020
+Timers Off: Mon Jun 22 10:27:31 2020
+
+Wall Time:        1.00 seconds
+
+JK: (A|mn)  :       0.01u       0.00s   0.011671w      3 calls
+JK: (A|Q)^-1/2:       0.02u       0.00s   0.020705w      3 calls
+JK: (Q|mn)  :       0.00u       0.00s   0.002047w      3 calls
+HF: Form H  :       0.01u       0.00s 0.00100900w      1 call
+HF: Form S/X:       0.00u       0.00s 0.00016000w      1 call
+HF: Guess   :       0.03u       0.00s 0.03754900w      1 call
+SAD Guess   :       0.03u       0.00s 0.03694700w      1 call
+JK: D       :       0.00u       0.00s   0.000052w     20 calls
+JK: USO2AO  :       0.00u       0.00s   0.000213w     20 calls
+JK: JK      :       0.01u       0.00s   0.010023w     20 calls
+JK: J       :       0.00u       0.00s   0.001014w     20 calls
+JK: J1      :       0.00u       0.00s   0.000486w     29 calls
+JK: J2      :       0.00u       0.00s   0.000430w     29 calls
+JK: K       :       0.01u       0.00s   0.008831w     20 calls
+JK: K1      :       0.01u       0.00s   0.003697w     27 calls
+JK: K2      :       0.00u       0.00s   0.005074w     27 calls
+JK: AO2USO  :       0.00u       0.00s   0.000327w     20 calls
+DIISManager::add_entry:       0.00u       0.00s   0.000418w     19 calls
+DIISManager::extrapolate:       0.00u       0.00s   0.000727w     18 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s   0.000268w     18 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s   0.000209w     18 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s   0.000184w     18 calls
+HF: Form G  :       0.01u       0.00s   0.009481w     11 calls
+HF: Form F  :       0.00u       0.00s   0.000025w     11 calls
+HF: DIIS    :       0.00u       0.00s   0.001232w     11 calls
+HF: Form C  :       0.00u       0.00s   0.000924w     11 calls
+HF: Form D  :       0.00u       0.00s   0.000022w     11 calls
+
+***********************************************************
+
+Host: sgoodlett
+
+Timers On : Mon Jun 22 10:30:28 2020
+Timers Off: Mon Jun 22 10:30:29 2020
+
+Wall Time:        1.00 seconds
+
+JK: (A|mn)  :       0.01u       0.00s   0.011767w      3 calls
+JK: (A|Q)^-1/2:       0.01u       0.00s   0.020942w      3 calls
+JK: (Q|mn)  :       0.00u       0.00s   0.002114w      3 calls
+HF: Form H  :       0.00u       0.00s 0.00076000w      1 call
+HF: Form S/X:       0.00u       0.00s 0.00015100w      1 call
+HF: Guess   :       0.04u       0.00s 0.03740500w      1 call
+SAD Guess   :       0.04u       0.00s 0.03679500w      1 call
+JK: D       :       0.01u       0.00s   0.000055w     20 calls
+JK: USO2AO  :       0.00u       0.00s   0.000219w     20 calls
+JK: JK      :       0.00u       0.00s   0.010283w     20 calls
+JK: J       :       0.00u       0.00s   0.000988w     20 calls
+JK: J1      :       0.00u       0.00s   0.000489w     29 calls
+JK: J2      :       0.00u       0.00s   0.000422w     29 calls
+JK: K       :       0.00u       0.00s   0.009091w     20 calls
+JK: K1      :       0.00u       0.00s   0.003767w     27 calls
+JK: K2      :       0.00u       0.00s   0.005247w     27 calls
+JK: AO2USO  :       0.00u       0.00s   0.000286w     20 calls
+DIISManager::add_entry:       0.00u       0.00s   0.000412w     19 calls
+DIISManager::extrapolate:       0.00u       0.00s   0.000729w     18 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s   0.000267w     18 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s   0.000211w     18 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s   0.000187w     18 calls
+HF: Form G  :       0.00u       0.00s   0.009680w     11 calls
+HF: Form F  :       0.00u       0.00s   0.000024w     11 calls
+HF: DIIS    :       0.01u       0.00s   0.001192w     11 calls
+HF: Form C  :       0.00u       0.00s   0.000891w     11 calls
+HF: Form D  :       0.00u       0.00s   0.000022w     11 calls
+
+***********************************************************
+
+Host: sgoodlett
+
+Timers On : Mon Jun 22 10:33:41 2020
+Timers Off: Mon Jun 22 10:33:42 2020
+
+Wall Time:        1.00 seconds
+
+JK: (A|mn)  :       0.01u       0.00s   0.011273w      3 calls
+JK: (A|Q)^-1/2:       0.02u       0.00s   0.020782w      3 calls
+JK: (Q|mn)  :       0.00u       0.00s   0.002025w      3 calls
+HF: Form H  :       0.00u       0.00s 0.00094800w      1 call
+HF: Form S/X:       0.00u       0.00s 0.00018500w      1 call
+HF: Guess   :       0.04u       0.00s 0.03712400w      1 call
+SAD Guess   :       0.04u       0.00s 0.03655400w      1 call
+JK: D       :       0.00u       0.00s   0.000052w     20 calls
+JK: USO2AO  :       0.00u       0.00s   0.000217w     20 calls
+JK: JK      :       0.01u       0.00s   0.010323w     20 calls
+JK: J       :       0.00u       0.00s   0.000979w     20 calls
+JK: J1      :       0.00u       0.00s   0.000486w     29 calls
+JK: J2      :       0.00u       0.00s   0.000426w     29 calls
+JK: K       :       0.01u       0.00s   0.009166w     20 calls
+JK: K1      :       0.00u       0.00s   0.003738w     27 calls
+JK: K2      :       0.01u       0.00s   0.005368w     27 calls
+JK: AO2USO  :       0.00u       0.00s   0.000286w     20 calls
+DIISManager::add_entry:       0.00u       0.00s   0.000458w     19 calls
+DIISManager::extrapolate:       0.00u       0.00s   0.000828w     18 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s   0.000288w     18 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s   0.000271w     18 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s   0.000208w     18 calls
+HF: Form G  :       0.00u       0.00s   0.009778w     11 calls
+HF: Form F  :       0.00u       0.00s   0.000023w     11 calls
+HF: DIIS    :       0.01u       0.00s   0.001292w     11 calls
+HF: Form C  :       0.00u       0.00s   0.000941w     11 calls
+HF: Form D  :       0.00u       0.00s   0.000022w     11 calls
+
+***********************************************************
