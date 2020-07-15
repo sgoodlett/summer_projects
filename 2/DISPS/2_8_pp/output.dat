@@ -1,0 +1,243 @@
+
+    -----------------------------------------------------------------------
+          Psi4: An Open-Source Ab Initio Electronic Structure Package
+                               Psi4 1.1 release
+
+                         Git: Rev {} zzzzzzz 
+
+
+    R. M. Parrish, L. A. Burns, D. G. A. Smith, A. C. Simmonett,
+    A. E. DePrince III, E. G. Hohenstein, U. Bozkaya, A. Yu. Sokolov,
+    R. Di Remigio, R. M. Richard, J. F. Gonthier, A. M. James,
+    H. R. McAlexander, A. Kumar, M. Saitow, X. Wang, B. P. Pritchard,
+    P. Verma, H. F. Schaefer III, K. Patkowski, R. A. King, E. F. Valeev,
+    F. A. Evangelista, J. M. Turney, T. D. Crawford, and C. D. Sherrill,
+    J. Chem. Theory Comput. in press (2017).
+    (doi: 10.1021/acs.jctc.7b00174)
+
+    -----------------------------------------------------------------------
+
+
+    Psi4 started on: Monday, 22 June 2020 10:33AM
+
+    Process ID:   5932
+    PSIDATADIR: /usr/share/psi4
+    Memory:     500.0 MiB
+    Threads:    1
+    
+  ==> Input File <==
+
+--------------------------------------------------------------------------
+molecule {
+0 1
+O 0.0 0.0 -0.06617626194871772
+H 0.0 -0.89161914868059 0.5648094956415423
+H 0.0 0.89161914868059 0.5698094956415423
+
+}
+
+set e_convergence 11
+set basis         cc-pVDZ
+energy('scf')
+
+--------------------------------------------------------------------------
+
+*** tstart() called on sgoodlett
+*** at Mon Jun 22 10:33:56 2020
+
+   => Loading Basis Set <=
+
+    Name: CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1   entry O          line   190 file /usr/share/psi4/basis/cc-pvdz.gbs 
+    atoms 2-3 entry H          line    20 file /usr/share/psi4/basis/cc-pvdz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+            by Justin Turney, Rob Parrish, and Andy Simmonett
+                              RHF Reference
+                        1 Threads,    500 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: cs
+    Full point group: Cs
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+           O          0.000000000000     0.070896478281     0.000000000000    15.994914619560
+           H          0.891619148681    -0.560089279310     0.000000000000     1.007825032070
+           H         -0.891619148681    -0.565089279310     0.000000000000     1.007825032070
+
+  Running in cs symmetry.
+
+  Rotational constants: A =     23.46709  B =     10.52002  C =      7.26376 [cm^-1]
+  Rotational constants: A = 703525.65746  B = 315382.14078  C = 217762.02746 [MHz]
+  Nuclear repulsion =    8.037856743047314
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 10
+  Nalpha       = 5
+  Nbeta        = 5
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-11
+  Density threshold  = 1.00e-06
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: CC-PVDZ
+    Blend: CC-PVDZ
+    Number of shells: 12
+    Number of basis function: 24
+    Number of Cartesian functions: 25
+    Spherical Harmonics?: true
+    Max angular momentum: 2
+
+   => Loading Basis Set <=
+
+    Name: (CC-PVDZ AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1   entry O          line   220 file /usr/share/psi4/basis/cc-pvdz-jkfit.gbs 
+    atoms 2-3 entry H          line    50 file /usr/share/psi4/basis/cc-pvdz-jkfit.gbs 
+
+  ==> Pre-Iterations <==
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     A'        18      18       0       0       0       0
+     A"         6       6       0       0       0       0
+   -------------------------------------------------------
+    Total      24      24       5       5       5       0
+   -------------------------------------------------------
+
+  ==> Integral Setup <==
+
+  ==> DFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    OpenMP threads:              1
+    Integrals threads:           1
+    Memory (MB):               375
+    Algorithm:                Core
+    Integral Cache:           NONE
+    Schwarz Cutoff:          1E-12
+    Fitting Condition:       1E-12
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (CC-PVDZ AUX)
+    Blend: CC-PVDZ-JKFIT
+    Number of shells: 42
+    Number of basis function: 116
+    Number of Cartesian functions: 131
+    Spherical Harmonics?: true
+    Max angular momentum: 3
+
+  Minimum eigenvalue in the overlap matrix is 4.7057306397E-02.
+  Using Symmetric Orthogonalization.
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-RHF iter   0:   -75.66859789056439   -7.56686e+01   6.59205e-02 
+   @DF-RHF iter   1:   -75.97154752141216   -3.02950e-01   1.14533e-02 
+   @DF-RHF iter   2:   -75.98561503884368   -1.40675e-02   6.06588e-03 DIIS
+   @DF-RHF iter   3:   -75.99046789452969   -4.85286e-03   9.06191e-04 DIIS
+   @DF-RHF iter   4:   -75.99062237268110   -1.54478e-04   1.84618e-04 DIIS
+   @DF-RHF iter   5:   -75.99063792917333   -1.55565e-05   5.31105e-05 DIIS
+   @DF-RHF iter   6:   -75.99063973407711   -1.80490e-06   1.12910e-05 DIIS
+   @DF-RHF iter   7:   -75.99063981699831   -8.29212e-08   1.22391e-06 DIIS
+   @DF-RHF iter   8:   -75.99063981774216   -7.43853e-10   2.16248e-07 DIIS
+   @DF-RHF iter   9:   -75.99063981776106   -1.89004e-11   2.97756e-08 DIIS
+   @DF-RHF iter  10:   -75.99063981776123   -1.70530e-13   3.04001e-09 DIIS
+
+  ==> Post-Iterations <==
+
+    Orbital Energies (a.u.)
+    -----------------------
+
+    Doubly Occupied:                                                      
+
+       1Ap   -20.570058     2Ap    -1.276142     3Ap    -0.639572  
+       4Ap    -0.532980     1App   -0.484204  
+
+    Virtual:                                                              
+
+       5Ap     0.158388     6Ap     0.231880     7Ap     0.722433  
+       8Ap     0.729842     9Ap     1.169065     2App    1.189840  
+      10Ap     1.260323     3App    1.440149    11Ap     1.511913  
+       4App    1.678375    12Ap     1.790500    13Ap     1.897183  
+      14Ap     2.171577    15Ap     2.209730     5App    3.159933  
+       6App    3.230538    16Ap     3.309834    17Ap     3.761224  
+      18Ap     3.971119  
+
+    Final Occupation by Irrep:
+             Ap   App 
+    DOCC [     4,    1 ]
+
+  Energy converged.
+
+  @DF-RHF Final Energy:   -75.99063981776123
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              8.0378567430473140
+    One-Electron Energy =                -121.0510817969827997
+    Two-Electron Energy =                  37.0225852361742511
+    DFT Exchange-Correlation Energy =       0.0000000000000000
+    Empirical Dispersion Energy =           0.0000000000000000
+    PCM Polarization Energy =               0.0000000000000000
+    EFP Energy =                            0.0000000000000000
+    Total Energy =                        -75.9906398177612346
+
+    Alert: EFP and PCM quantities not currently incorporated into SCF psivars.
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 Bohr
+
+Properties computed using the SCF density matrix
+
+  Nuclear Dipole Moment: (a.u.)
+     X:     0.0000      Y:    -1.0545      Z:     0.0000
+
+  Electronic Dipole Moment: (a.u.)
+     X:     0.0009      Y:     0.2343      Z:     0.0000
+
+  Dipole Moment: (a.u.)
+     X:     0.0009      Y:    -0.8202      Z:     0.0000     Total:     0.8202
+
+  Dipole Moment: (Debye)
+     X:     0.0022      Y:    -2.0847      Z:     0.0000     Total:     2.0847
+
+
+*** tstop() called on sgoodlett at Mon Jun 22 10:33:56 2020
+Module time:
+	user time   =       0.19 seconds =       0.00 minutes
+	system time =       0.01 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =       0.19 seconds =       0.00 minutes
+	system time =       0.01 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+
+*** Psi4 exiting successfully. Buy a developer a beer!
